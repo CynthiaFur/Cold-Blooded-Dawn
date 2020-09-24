@@ -1,0 +1,10 @@
+# Items
+item.coldbloodeddawn.ruby.name=Ruby
+item.coldbloodeddawn.ruby_pickaxe.name=Ruby Pickaxe
+item.coldbloodeddawn.ruby_sword.name=Ruby Sword
+
+#Blocks
+tile.coldbloodeddawn.ruby_block.name=Ruby Block
+
+#Creative Tabs
+itemGroup.coldbloodeddawn= Cold Blooded Dawn

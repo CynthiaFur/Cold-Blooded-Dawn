@@ -2,6 +2,7 @@
 item.coldbloodeddawn.ruby.name=Ruby
 item.coldbloodeddawn.ruby_pickaxe.name=Ruby Pickaxe
 item.coldbloodeddawn.ruby_sword.name=Ruby Sword
+item.coldbloodeddawn.ruby_axe.name=Ruby Axe
 
 #Blocks
 tile.coldbloodeddawn.ruby_block.name=Ruby Block

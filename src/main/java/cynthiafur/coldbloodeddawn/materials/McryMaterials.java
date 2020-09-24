@@ -10,5 +10,6 @@ public class McryMaterials {
 	
 	public static final ToolMaterial MCRY_RUBY_SWORD = EnumHelper.addToolMaterial(Main.MODID, 0, 1000, 7.0F, 7.0F, 15);
 	
-
+	public static final ToolMaterial MCRY_RUBY_AXE = EnumHelper.addToolMaterial(Main.MODID, 4, 1500, 10.0F, 5.0F, 10);
+	
 }

@@ -12,5 +12,6 @@ public class ModItems {
 	public static final Item ruby_block = null;
 	public static final Item MCRY_RUBY_PICKAXE = null;
 	public static final Item MCRY_RUBY_SWORD = null;
+	public static final Item MCRY_RUBY_AXE = null;
 
 }

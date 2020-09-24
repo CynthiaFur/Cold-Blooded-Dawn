@@ -13,5 +13,7 @@ public class ModItems {
 	public static final Item MCRY_RUBY_PICKAXE = null;
 	public static final Item MCRY_RUBY_SWORD = null;
 	public static final Item MCRY_RUBY_AXE = null;
+	public static final Item MCRY_RUBY_HOE = null;
+	public static final Item MCRY_RUBY_SHOVEL = null;
 
 }

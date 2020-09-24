@@ -19,6 +19,8 @@ public class ModelRegistrationHandler {
 		registerModel(ModItems.ruby, 0);
 		registerModel(Item.getItemFromBlock(ModBlocks.ruby_block),0);
 		
+		registerModel(ModItems.MCRY_RUBY_HOE, 0);
+		//registerModel(ModItems.MCRY_RUBY_SHOVEL, 0);
 		//registerModel(ModItems.MCRY_RUBY_AXE, 0);
 		//registerModel(ModItems.MCRY_RUBY_PICKAXE , 0);
 		//registerModel(ModItems.MCRY_RUBY_SWORD, 0);

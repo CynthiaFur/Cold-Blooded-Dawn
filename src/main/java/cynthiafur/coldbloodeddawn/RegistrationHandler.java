@@ -2,7 +2,9 @@ package cynthiafur.coldbloodeddawn;
 
 import cynthiafur.coldbloodeddawn.init.ModBlocks;
 import cynthiafur.coldbloodeddawn.item.ItemMcryAxe;
+import cynthiafur.coldbloodeddawn.item.ItemMcryHoe;
 import cynthiafur.coldbloodeddawn.item.ItemMcryPickaxe;
+import cynthiafur.coldbloodeddawn.item.ItemMcryShovel;
 import cynthiafur.coldbloodeddawn.item.ItemMcrySword;
 import cynthiafur.coldbloodeddawn.materials.McryMaterials;
 import cynthiafur.coldbloodeddawn.util.RegistryUtil;
@@ -23,7 +25,9 @@ public class RegistrationHandler {
 				RegistryUtil.setItemName(new Item(),  "ruby").setCreativeTab(Main.COLDBLOODEDDAWN_TAB),
 				RegistryUtil.setItemName(new ItemMcryPickaxe(McryMaterials.MCRY_RUBY_PICKAXE), "ruby_pickaxe").setCreativeTab(Main.COLDBLOODEDDAWN_TAB),
 				RegistryUtil.setItemName(new ItemMcrySword(McryMaterials.MCRY_RUBY_SWORD), "ruby_sword").setCreativeTab(Main.COLDBLOODEDDAWN_TAB),
-				RegistryUtil.setItemName(new ItemMcryAxe(McryMaterials.MCRY_RUBY_AXE, 8.0F, -3.1F), "ruby_axe").setCreativeTab(Main.COLDBLOODEDDAWN_TAB)
+				RegistryUtil.setItemName(new ItemMcryAxe(McryMaterials.MCRY_RUBY_AXE, 8.0F, -3.1F), "ruby_axe").setCreativeTab(Main.COLDBLOODEDDAWN_TAB),
+				RegistryUtil.setItemName(new ItemMcryHoe(McryMaterials.MCRY_RUBY_HOE), "ruby_hoe").setCreativeTab(Main.COLDBLOODEDDAWN_TAB),
+				RegistryUtil.setItemName(new ItemMcryShovel(McryMaterials.MCRY_RUBY_SHOVEL), "ruby_shovel").setCreativeTab(Main.COLDBLOODEDDAWN_TAB)
 				
 		};
 		

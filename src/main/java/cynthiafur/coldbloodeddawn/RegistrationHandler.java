@@ -5,11 +5,9 @@ import cynthiafur.coldbloodeddawn.item.ItemMcryArmor;
 import cynthiafur.coldbloodeddawn.item.ItemMcryAxe;
 import cynthiafur.coldbloodeddawn.item.ItemMcryHoe;
 import cynthiafur.coldbloodeddawn.item.ItemMcryPickaxe;
-import cynthiafur.coldbloodeddawn.item.ItemMcryRocket;
-import cynthiafur.coldbloodeddawn.item.ItemMcryRocketLauncher;
 import cynthiafur.coldbloodeddawn.item.ItemMcryShovel;
 import cynthiafur.coldbloodeddawn.item.ItemMcrySword;
-import cynthiafur.coldbloodeddawn.item.ItemMcryRocketLauncher;
+import cynthiafur.coldbloodeddawn.item.RocketLauncher;
 import cynthiafur.coldbloodeddawn.materials.McryMaterials;
 import cynthiafur.coldbloodeddawn.util.RegistryUtil;
 import net.minecraft.block.Block;
@@ -34,8 +32,8 @@ public class RegistrationHandler {
 				RegistryUtil.setItemName(new ItemMcrySword(McryMaterials.RUBY_TOOL), "ruby_sword").setCreativeTab(Main.COLDBLOODEDDAWN_TAB),
 				RegistryUtil.setItemName(new ItemMcryAxe(McryMaterials.RUBY_TOOL, 8.0F, -3.1F), "ruby_axe").setCreativeTab(Main.COLDBLOODEDDAWN_TAB),
 				RegistryUtil.setItemName(new ItemMcryShovel(McryMaterials.RUBY_TOOL), "ruby_shovel").setCreativeTab(Main.COLDBLOODEDDAWN_TAB),
-				RegistryUtil.setItemName(new ItemMcryRocket("rocket"), "rocket").setCreativeTab(Main.COLDBLOODEDDAWN_TAB),
-				RegistryUtil.setItemName(new ItemMcryRocketLauncher(), "rocket_launcher").setCreativeTab(Main.COLDBLOODEDDAWN_TAB),
+				RegistryUtil.setItemName(new RocketLauncher(), "rocket_launcher").setCreativeTab(Main.COLDBLOODEDDAWN_TAB),
+				RegistryUtil.setItemName(new Item(), "rocket").setCreativeTab(Main.COLDBLOODEDDAWN_TAB),
 				
 				//Armor Registies
 				RegistryUtil.setItemName(new ItemMcryArmor(McryMaterials.RUBY_ARMOR, EntityEquipmentSlot.HEAD), "ruby_helmet").setCreativeTab(Main.COLDBLOODEDDAWN_TAB),

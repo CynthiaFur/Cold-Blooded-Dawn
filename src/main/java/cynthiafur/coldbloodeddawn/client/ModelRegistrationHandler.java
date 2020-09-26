@@ -34,6 +34,8 @@ public class ModelRegistrationHandler {
 		registerModel(ModItems.ruby_shovel, 0);
 		registerModel(ModItems.ruby_axe, 0);
 		registerModel(ModItems.ruby_pickaxe , 0);
+		
+		//Weapons
 		registerModel(ModItems.ruby_sword, 0);
 		registerModel(ModItems.rocket_launcher, 0);
 		

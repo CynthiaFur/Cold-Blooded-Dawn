@@ -1,0 +1,16 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"pattern": [
+		"   ",
+		"XXX",
+		"X X"
+	],
+	"key":{
+		"X":{
+			"item": "coldbloodeddawn:ruby"
+		}
+	},
+	"result": {
+		"item": "coldbloodeddawn:ruby_helmet"
+	}
+}	

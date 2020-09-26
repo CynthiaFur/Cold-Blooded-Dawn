@@ -5,9 +5,19 @@ item.coldbloodeddawn.ruby_sword.name=Ruby Sword
 item.coldbloodeddawn.ruby_axe.name=Ruby Axe
 item.coldbloodeddawn.ruby_hoe.name=Ruby Hoe
 item.coldbloodeddawn.ruby_shovel.name=Ruby Shovel
+item.coldbloodeddawn.ruby_helmet.name=Ruby Helmet
+item.coldbloodeddawn.ruby_leggings.name=Ruby Leggings
+item.coldbloodeddawn.ruby_boots.name=Ruby Boots
+item.coldbloodeddawn.ruby_chestplate.name=Ruby Chestplate
+item.coldbloodeddawn.rocket_launcher.name=Rocket Launcher
+item.coldbloodeddawn.rocket.name=Rocket
 
 #Blocks
 tile.coldbloodeddawn.ruby_block.name=Ruby Block
+tile.coldbloodeddawn.ruby_ore.name=Ruby Ore
 
 #Creative Tabs
 itemGroup.coldbloodeddawn= Cold Blooded Dawn
+
+#Entities
+entity.rocket.name=Rocket

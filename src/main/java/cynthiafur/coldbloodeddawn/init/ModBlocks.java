@@ -8,5 +8,7 @@ import net.minecraftforge.fml.common.registry.GameRegistry.ObjectHolder;
 public class ModBlocks {
 	
 	public static final Block ruby_block = null;
+	public static final Block ruby_ore = null;
+	
 
 }

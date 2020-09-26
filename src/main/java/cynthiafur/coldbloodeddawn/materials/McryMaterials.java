@@ -1,20 +1,17 @@
 package cynthiafur.coldbloodeddawn.materials;
 
 import cynthiafur.coldbloodeddawn.Main;
+import net.minecraft.init.SoundEvents;
 import net.minecraft.item.Item.ToolMaterial;
+import net.minecraft.item.ItemArmor.ArmorMaterial;
 import net.minecraftforge.common.util.EnumHelper;
 
 public class McryMaterials {
 	
-	public static final ToolMaterial MCRY_RUBY_PICKAXE = EnumHelper.addToolMaterial(Main.MODID + ":" + "ruby_pickaxe", 4, 1500, 10.0F, 3.5F, 10);
+	//tool materials
+	public static final ToolMaterial RUBY_TOOL = EnumHelper.addToolMaterial(Main.MODID + ":" + "ruby_tool", 4, 2500, 15.0F, 4.5F, 15);
 	
-	public static final ToolMaterial MCRY_RUBY_SWORD = EnumHelper.addToolMaterial(Main.MODID + ":" + "ruby_sword", 4, 1000, 7.0F, 7.0F, 15);
-	
-	public static final ToolMaterial MCRY_RUBY_AXE = EnumHelper.addToolMaterial(Main.MODID + ":" + "ruby_axe", 4, 1500, 10.0F, 5.0F, 10);
-	
-	public static final ToolMaterial MCRY_RUBY_HOE = EnumHelper.addToolMaterial(Main.MODID + ":" + "ruby_hoe", 4, 1000, 5.0F, 3.5F, 10);
-	
-	public static final ToolMaterial MCRY_RUBY_SHOVEL = EnumHelper.addToolMaterial(Main.MODID + ":" + "ruby_shovel", 4, 1500, 10.0F, 3.5F, 10);
-			
+	//armor materials
+	public static final ArmorMaterial RUBY_ARMOR = EnumHelper.addArmorMaterial(Main.MODID + ":" + "ruby_armor", Main.MODID + ":ruby", 20, new int[] {4,7,8,5}, 15, SoundEvents.ITEM_ARMOR_EQUIP_GENERIC, 3);
 	
 }

@@ -16,14 +16,26 @@ public class ModelRegistrationHandler {
 
 	@SubscribeEvent
 	public static void registerModels(ModelRegistryEvent event) {
-		registerModel(ModItems.ruby, 0);
-		registerModel(Item.getItemFromBlock(ModBlocks.ruby_block),0);
 		
-		registerModel(ModItems.MCRY_RUBY_HOE, 0);
-		//registerModel(ModItems.MCRY_RUBY_SHOVEL, 0);
-		//registerModel(ModItems.MCRY_RUBY_AXE, 0);
-		//registerModel(ModItems.MCRY_RUBY_PICKAXE , 0);
-		//registerModel(ModItems.MCRY_RUBY_SWORD, 0);
+		//Items
+		registerModel(ModItems.ruby, 0);
+		registerModel(ModItems.rocket, 0);
+
+		registerModel(ModItems.ruby_helmet, 0);
+		registerModel(ModItems.ruby_chestplate, 0);
+		registerModel(ModItems.ruby_leggings, 0);
+		registerModel(ModItems.ruby_boots, 0);
+		
+		//Blocks
+		registerModel(Item.getItemFromBlock(ModBlocks.ruby_block),0);
+		registerModel(Item.getItemFromBlock(ModBlocks.ruby_ore), 0);
+		
+		//Tools
+		registerModel(ModItems.ruby_shovel, 0);
+		registerModel(ModItems.ruby_axe, 0);
+		registerModel(ModItems.ruby_pickaxe , 0);
+		registerModel(ModItems.ruby_sword, 0);
+		registerModel(ModItems.rocket_launcher, 0);
 		
 	}
 	
